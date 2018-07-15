@@ -6,6 +6,7 @@
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
+
 }
 p {
   font-size: 20px;
@@ -156,7 +157,7 @@ header .intro-text .skills {
 }
 @media (min-width: 768px) {
   header .container {
-    padding-top: 30px;
+    padding-top: 50px;
     padding-bottom: 100px;
   }
   header .intro-text .name {
@@ -245,6 +246,7 @@ header .intro-text .skills {
 }
 section {
   padding: 100px 0;
+ 
 }
 section h2 {
   margin: 0;
@@ -575,6 +577,7 @@ fieldset[disabled] .btn-success.active {
 
 .img-responsive-top{
    border-radius: 50%;
+
     width: 300px;
 }
 
@@ -582,6 +585,8 @@ fieldset[disabled] .btn-success.active {
 
 .img-responsive{
    border-radius: 8px;
+   border: 4px solid #ddd;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  
 }
 
@@ -613,3 +618,8 @@ img {
         -webkit-clip-path: url("#polygon-clip-hexagon");
         clip-path: url("#polygon-clip-hexagon");
     }
+
+
+
+
+
