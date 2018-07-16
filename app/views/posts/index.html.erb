@@ -167,8 +167,8 @@
                 <% @posts.each do |post| %>
                 <div class="col-sm-4 portfolio-item">
                 <%= link_to post_path(post) do %>
-                  <%= image_tag post.image.url, class: 'img-responsive' %>
-                 <%= image_tag post.imageurl, class: "img-responsive-top" %>
+                  
+                 <%= image_tag post.imageurl, class: "img-responsive" %>
                  
                 <% end %>
                 </div>
