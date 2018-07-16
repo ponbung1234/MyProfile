@@ -16,6 +16,8 @@
 
         <div class="col-md-7">
             <%= image_tag @post.image.url, class: 'img-responsive' %>
+
+            <%= @post.imageurl %>
         </div>
 
         <div class="col-md-5">
@@ -55,6 +57,7 @@
             <div class="col-sm-3 col-xs-6">
                 <%= link_to post_path(post) do %>
                   <%= image_tag post.image.url, class: 'img-responsive portfolio-item' %>
+                  
                 <% end %>
             </div>
         <% end %>
